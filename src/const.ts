@@ -68,11 +68,11 @@ export const NMAP_PLACE_ID = 12127345
 export const KMAP_PLACE_ID = 8466281
 
 // 신부 정보 설정
-export const BRIDE_FULLNAME = "노은영"
-export const BRIDE_FIRSTNAME = "은영"
+export const BRIDE_FULLNAME = "안채영"
+export const BRIDE_FIRSTNAME = "채영"
 export const BRIDE_TITLE = "딸"
-export const BRIDE_FATHER = "노금용"
-export const BRIDE_MOTHER = "조은미"
+export const BRIDE_FATHER = "안영수"
+export const BRIDE_MOTHER = "김은정"
 
 /**
  * 신부측 연락처 및 계좌 정보
@@ -81,29 +81,29 @@ export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-9287-6735",
+    phone: "010-4490-5027",
     account: "우리은행 1002-763-709155",
   },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
-    phone: "010-3673-5767",
-    account: "전북은행 564-21-0479735",
+    phone: "010-3398-5027",
+    account: "우리은행 074-496762-02-101",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
-    phone: "010-3075-5767",
-    account: "전북은행 564-21-0394967",
+    phone: "010-9875-5027",
+    account: "국민은행 068-24-0204-780",
   },
 ]
 
 // 신랑 정보 설정
-export const GROOM_FULLNAME = "안재하"
-export const GROOM_FIRSTNAME = "재하"
+export const GROOM_FULLNAME = "풀네임"
+export const GROOM_FIRSTNAME = "이름름"
 export const GROOM_TITLE = "아들"
-export const GROOM_FATHER = "안영수"
-export const GROOM_MOTHER = "김은정"
+export const GROOM_FATHER = "아빠이름"
+export const GROOM_MOTHER = "엄마이름"
 
 /**
  * 신랑측 연락처 및 계좌 정보
