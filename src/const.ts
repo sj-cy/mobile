@@ -37,7 +37,7 @@ export const LOCATION = "우리은행 본점"
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울 중구 소공로 51 우리은행 본점 4층"
+export const LOCATION_ADDRESS = "서울 중구 소공로 51 우리은행 본점4층"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
