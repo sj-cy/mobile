@@ -32,12 +32,12 @@ export const HOLIDAYS = [6,7,8,9]
 /**
  * 예식 장소 명칭
  */
-export const LOCATION = "포스코센터 아트홀"
+export const LOCATION = "포스코센터"
 
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울 강남구 테헤란로 440 서관 4층"
+export const LOCATION_ADDRESS = "서울 강남구 테헤란로 440 서관 4층 아트홀"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
