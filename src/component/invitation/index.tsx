@@ -33,15 +33,16 @@ export const Invitation = () => {
         <div className="break" />
 
         {/* 초대 문구 */}
-        <div className="content">같은 일상 속에서 싹튼 신뢰가</div>
-        <div className="content">사랑이 되었습니다.</div>
+        <div className="content">같은 공간에서 함께 일하며</div>
+        <div className="content">서로의 일상을 응원하던 두 사람이</div>
+        <div className="content">같은 곳을 바라보며 평생을 함께하고자 합니다.</div>
         <div className="break" />
-        <div className="content">서로의 노력을 가까이서 지켜보며</div>
-        <div className="content">깊은 존중을 배웠고</div>
-        <div className="content">이제는 그 믿음을 바탕으로</div>
-        <div className="content">하나의 가정을 이루고자 합니다.</div>
+        <div className="content">늘 서로를 향한 믿음과 존중을 잊지 않고</div>
+        <div className="content">행복한 가정을 일구어 가겠습니다.</div>
         <div className="break" />
-        <div className="content">저희의 소중한 시작을 축복해주세요.</div>
+        <div className="content">소중한 분들을 모시는 자리에 오셔서</div>
+        <div className="content">아낌없는 격려와 축복을 보내주신다면</div>
+        <div className="content">더없는 기쁨이 되겠습니다.</div>
         <div className="break" />
 
         {/* 혼주 및 신랑 정보 */}
