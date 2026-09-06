@@ -33,11 +33,12 @@ export const HOLIDAYS = [6,7,8,9]
  * 예식 장소 명칭
  */
 export const LOCATION = "포스코센터"
+export const LOCATION1 = "포스코센터 아트홀"
 
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울 강남구 테헤란로 440 서관 4층 아트홀"
+export const LOCATION_ADDRESS = "서울 강남구 테헤란로 440 서관 4층"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
@@ -48,7 +49,7 @@ export const SHARE_ADDRESS = LOCATION
 /**
  * 카카오톡 공유 시 표시될 위치 제목
  */
-export const SHARE_ADDRESS_TITLE = LOCATION
+export const SHARE_ADDRESS_TITLE = LOCATION1
 
 /**
  * 지도 서비스(네이버, 카카오)에 사용할 좌표 [경도, 위도]
