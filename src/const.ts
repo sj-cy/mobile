@@ -14,7 +14,7 @@ export { dayjs }
  * 예식 일시 설정
  * Asia/Seoul 타임존 기준으로 설정합니다.
  */
-export const WEDDING_DATE = dayjs.tz("2026-12-05 15:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2027-02-27 11:00", "Asia/Seoul")
 
 /**
  * 예식 일시 포맷
@@ -32,12 +32,12 @@ export const HOLIDAYS = [25]
 /**
  * 예식 장소 명칭
  */
-export const LOCATION = "우리은행 본점"
+export const LOCATION = "포스코센터 아트홀"
 
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울 중구 소공로 51 우리은행 본점4층"
+export const LOCATION_ADDRESS = "서울 강남구 테헤란로 440 서관 4층"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
@@ -53,19 +53,19 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 /**
  * 지도 서비스(네이버, 카카오)에 사용할 좌표 [경도, 위도]
  */
-export const WEDDING_HALL_POSITION = [126.9790505, 37.5582236]
+export const WEDDING_HALL_POSITION = [127.0560528, 37.5059833]
 
 /**
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
  * 네이버 지도에서 장소 검색 후 URL의 숫자 부분을 입력합니다.
  */
-export const NMAP_PLACE_ID = 12127345
+export const NMAP_PLACE_ID = 37648874
 
 /**
  * 카카오 지도 장소 ID (KMAP_PLACE_ID)
  * 카카오 지도에서 장소 상세보기 클릭 후 URL의 숫자 부분을 입력합니다.
  */
-export const KMAP_PLACE_ID = 8466281
+export const KMAP_PLACE_ID = 8617090
 
 // 신부 정보 설정
 export const BRIDE_FULLNAME = "안채영"
@@ -82,7 +82,7 @@ export const BRIDE_INFO = [
     relation: "신부",
     name: BRIDE_FULLNAME,
     phone: "010-4490-5027",
-    account: "우리은행 1002-763-709155",
+    account: "신한은행 110-407-401381",
   },
   {
     relation: "신부 아버지",
@@ -99,11 +99,11 @@ export const BRIDE_INFO = [
 ]
 
 // 신랑 정보 설정
-export const GROOM_FULLNAME = "풀네임"
-export const GROOM_FIRSTNAME = "이름름"
+export const GROOM_FULLNAME = "차석재"
+export const GROOM_FIRSTNAME = "석재"
 export const GROOM_TITLE = "아들"
-export const GROOM_FATHER = "아빠이름"
-export const GROOM_MOTHER = "엄마이름"
+export const GROOM_FATHER = "차석재"
+export const GROOM_MOTHER = "차석재"
 
 /**
  * 신랑측 연락처 및 계좌 정보
@@ -112,19 +112,19 @@ export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-7137-5027",
-    account: "우리은행 1002-463-447893",
+    phone: "010-8355-2337",
+    account: "우리은행 1002-853-101053",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-3398-5027",
-    account: "우리은행 074-496762-02-101",
+    phone: "010-8355-2337",
+    account: "우리은행 1002-853-101053",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-9875-5027",
-    account: "국민은행 068-24-0204-780",
+    phone: "010-8355-2337",
+    account: "우리은행 1002-853-101053",
   },
 ]
