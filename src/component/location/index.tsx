@@ -57,11 +57,9 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            * 네이버 지도, 카카오 네비, 티맵 등 이용
+            * <b>포스코센터 아트홀 주차장</b> 검색
             <br />
-            <b>포스코센터 아트홀 주차장</b> 검색
-            <br />
-            - 주차 요금은 4시간까지 무료입니다.
+            주차 요금은 4시간까지 무료입니다.
           </div>
           <div />
         </div>
