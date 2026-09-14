@@ -45,7 +45,7 @@ export const Location = () => {
             <br />
             간선(파랑): 146,333,341,360,740
             <br />
-            지선(초록): 3412,4434
+            지선(초록): N31, N61
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export const Location = () => {
           <div className="content">
             * <b>포스코센터 아트홀 주차장</b> 검색
             <br />
-            주차 요금은 4시간까지 무료입니다.
+            (건물 내 지하주차장 4시간 무료 이용 가능)
           </div>
           <div />
         </div>
