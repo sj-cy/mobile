@@ -71,7 +71,7 @@ export const KMAP_PLACE_ID = 8617090
 // 신부 정보 설정
 export const BRIDE_FULLNAME = "안채영"
 export const BRIDE_FIRSTNAME = "채영"
-export const BRIDE_TITLE = "딸"
+export const BRIDE_TITLE = "장녀"
 export const BRIDE_FATHER = "안영수"
 export const BRIDE_MOTHER = "김은정"
 
@@ -102,9 +102,9 @@ export const BRIDE_INFO = [
 // 신랑 정보 설정
 export const GROOM_FULLNAME = "차석재"
 export const GROOM_FIRSTNAME = "석재"
-export const GROOM_TITLE = "아들"
-export const GROOM_FATHER = "차석재"
-export const GROOM_MOTHER = "차석재"
+export const GROOM_TITLE = "차남"
+export const GROOM_FATHER = "차길업"
+export const GROOM_MOTHER = "서기정"
 
 /**
  * 신랑측 연락처 및 계좌 정보
@@ -119,13 +119,13 @@ export const GROOM_INFO = [
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-8355-2337",
+    phone: "010-4522-3339",
     account: "우리은행 1002-853-101053",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-8355-2337",
+    phone: "010-4511-9273",
     account: "우리은행 1002-853-101053",
   },
 ]
