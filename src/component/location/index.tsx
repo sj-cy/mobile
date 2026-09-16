@@ -43,9 +43,11 @@ export const Location = () => {
           <div className="content">
             * 버스 이용 시
             <br />
-            간선(파랑): 146, 333, 341, 360, 740
+            간선 : 146, 333, 341, 360, 740
             <br />
-            광역(빨강): 1100, 1700, 2000, 7007, 8001
+            지선 : 2415, 2416, 3011
+            <br />
+            광역 : 1100, 1700, 2000, 7007
           </div>
         </div>
 
@@ -57,7 +59,7 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            * <b>포스코센터 아트홀 주차장</b> 검색
+            * 내비게이션 <b>포스코센터 </b> 입력
             <br />
             (건물 내 지하주차장 4시간 무료 이용 가능)
           </div>
