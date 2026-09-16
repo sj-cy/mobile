@@ -41,8 +41,8 @@ export const Invitation = () => {
         <div className="content">행복한 가정을 일구어 가겠습니다.</div>
         <div className="break" />
         <div className="content">소중한 분들을 모시는 자리에 오셔서</div>
-        <div className="content">아낌없는 격려와 축복을 보내주신다면</div>
-        <div className="content">더없는 기쁨이 되겠습니다.</div>
+        <div className="content">따뜻한 격려와 축복을 보내주신다면</div>
+        <div className="content">더없는 기쁨으로 간직하겠습니다.</div>
         <div className="break" />
 
         {/* 혼주 및 신랑 정보 */}
