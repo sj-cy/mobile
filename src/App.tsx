@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Cover } from "./component/cover"
 import { Location } from "./component/location"
 import "./App.scss"
@@ -17,6 +18,22 @@ import { STATIC_ONLY } from "./env"
  * @returns {JSX.Element} 애플리케이션 화면
  */
 function App() {
+  useEffect(() => {
+    const preventPinchZoom = (e: TouchEvent) => {
+      if (e.touches.length > 1) {
+        e.preventDefault()
+      }
+    }
+
+    document.addEventListener("touchmove", preventPinchZoom, {
+      passive: false,
+    })
+
+    return () => {
+      document.removeEventListener("touchmove", preventPinchZoom)
+    }
+  }, [])
+
   return (
     <div className="background">
       <div className="card-view">
