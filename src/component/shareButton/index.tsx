@@ -23,7 +23,7 @@ export const ShareButton = () => {
 
   /**
    * 중복 슬래시 없이 안전하게 절대 경로 URL을 생성하는 함수
-   * @param {string} path - 하위 파일 경로 (예: "preview_image.png")
+   * @param {string} path - 하위 파일 경로 (예: "preview_image.jpg")
    * @returns {string} 완성된 절대 경로 URL
    */
   const getAbsoluteUrl = (path = "") => {
