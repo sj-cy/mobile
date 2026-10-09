@@ -11,6 +11,9 @@ import image9 from "./9.jpg"
 import image10 from "./10.jpg"
 import image11 from "./11.jpg"
 import image12 from "./12.jpg"
+import image12 from "./13.jpg"
+import image12 from "./14.jpg"
+
 
 /**
  * 메인 커버 이미지
@@ -33,4 +36,6 @@ export const GALLERY_IMAGES = [
   image10,
   image11,
   image12,
+  image13,
+  image13
 ]
