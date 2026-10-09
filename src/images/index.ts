@@ -37,5 +37,5 @@ export const GALLERY_IMAGES = [
   image11,
   image12,
   image13,
-  image14
+  image14,
 ]
