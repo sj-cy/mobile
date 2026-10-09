@@ -120,12 +120,12 @@ export const GROOM_INFO = [
     relation: "신랑 아버지",
     name: GROOM_FATHER,
     phone: "010-4522-3339",
-    account: "우리은행 1002-853-101053",
+    account: "우리은행 1002-132-410-323",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
     phone: "010-4511-9273",
-    account: "우리은행 1002-853-101053",
+    account: "",
   },
 ]
