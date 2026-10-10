@@ -60,13 +60,13 @@ export const WEDDING_HALL_POSITION = [127.0560528, 37.5059833]
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
  * 네이버 지도에서 장소 검색 후 URL의 숫자 부분을 입력합니다.
  */
-export const NMAP_PLACE_ID = 18825915
+export const NMAP_PLACE_ID = 1005261794
 
 /**
  * 카카오 지도 장소 ID (KMAP_PLACE_ID)
  * 카카오 지도에서 장소 상세보기 클릭 후 URL의 숫자 부분을 입력합니다.
  */
-export const KMAP_PLACE_ID = 8617090
+export const KMAP_PLACE_ID = 1654445384
 
 // 신부 정보 설정
 export const BRIDE_FULLNAME = "안채영"
